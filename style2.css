@@ -1,0 +1,47 @@
+div ul {
+  display: flex;
+  justify-content: space-between;
+
+  list-style-type: none;
+}
+ footer {
+  position: sticky;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between; 
+  font-size: 30px;
+  cursor: pointer;
+ }
+ .phone  {
+   margin-left: 3px;
+
+ }
+ .phone span {
+  position:absolute;
+  top: 0;
+  left: 75%;
+  right: 3%;
+  display: none;
+  margin: 0;
+  padding: 0;
+   
+ }
+.phone:hover span {
+  display: block;
+  background-color: rgb(214, 99, 214);
+  color: white;
+  border: 3px solid purple;
+}
+.phone span:hover {
+  color: rgb(214, 99, 214);
+  background-color: white;
+  border: 3px solid rgb(214, 99, 214);
+}
+body {
+  background-color: rgba(247, 233, 232, 0.904);
+  font-family: sans-serif;
+}
+ 
